@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(https://t4.ftcdn.net/jpg/08/48/65/65/360_F_848656577_N6XgFHk6nE2KiCRAiqApVhCp8DZ3gPQQ.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+    background-attachment: fixed;
+}
+
+.stopwatch {
+    background: white;
+    padding: 40px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #47484e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#laps li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
